@@ -1,5 +1,5 @@
 {
-  "name": "tic-tac-toe-follow-tutorial",
+  "name": "tic-tac-toe",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
@@ -10,8 +10,8 @@
     "react-dom": "^16.8.6"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
